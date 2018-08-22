@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 12, 2018, 3:39:52 PM
+    Author     : rrjoh
+*/
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+div{
+ 
+  float:left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li{
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+li.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+#profile_section
+{
+    width: 10%;
+    margin-right: 5%;
+    height: 100%; 
+    
+    
+}
+#search_section
+{
+    width: 37.5%;
+    margin-right: 5%;
+    height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#message_section
+{
+    width: 42.5%; 
+    height: 100%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    font-size: 150%
+}
+
+
+
+
+
